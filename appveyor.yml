@@ -2,3 +2,4 @@ build: off
 
 test_script:
 - ps: Start-FileDownload 'https://dl.dropboxusercontent.com/s/c1by0uulee6g8th/wxWidgets.7z?dl=0' -FileName wxWidgets.7z
+- appveyor PushArtifact wxWidgets.7z
