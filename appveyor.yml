@@ -1,4 +1,4 @@
 build: off
 
 test_script:
-- ps: Start-FileDownload 'https://drive.google.com/uc?export=download&id=0B8A6NaxhQAGRa21fbDQteTN1dGs' -FileName vulkan.7z
+- ps: Start-FileDownload 'https://dl.dropboxusercontent.com/s/c1by0uulee6g8th/wxWidgets.7z?dl=0' -FileName wxWidgets.7z
