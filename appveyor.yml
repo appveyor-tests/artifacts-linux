@@ -1,0 +1,4 @@
+build: off
+
+test_script:
+- ps: Start-FileDownload 'https://drive.google.com/uc?export=download&id=0B8A6NaxhQAGRa21fbDQteTN1dGs' -FileName vulkan.7z
